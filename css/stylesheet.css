@@ -1,0 +1,213 @@
+*, body {
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+}
+
+body {
+  background-color: #B0C4DE; 
+}
+
+ul {
+  display: block;
+  background: linear-gradient(to top, #000816 70%, #333333 100%);
+  font-size: 20px;
+  border-bottom: 2px solid #000000;
+  overflow: hidden;
+}
+
+ul.social {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline;
+  font-size: 23px;
+}
+
+ul.resume {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline;
+  font-size: 23px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  padding: 24px 48px;
+  display: inline-block;
+  text-decoration: none;
+  color: #D3D3D3;
+  border-right: 3px solid #000000;
+  font-family: didot, serif; //Edit this to something fancier.
+}
+
+a.projlink {
+  padding: 0;
+  color: inherit;
+  border: none;
+}
+
+a:hover {
+  background-color: #B0C4DE;
+  color: #000816;
+  transition: 0.4s;
+}
+
+a.home {
+  width: 60px;
+  border-left: 3px solid #000000;
+
+}
+
+a.projects {
+  margin: auto;
+  width: 60px;
+  border-left: 3px solid #000000;
+}
+
+a.contact {
+  width: 60px;
+  border-left: 3px solid #000000;
+  border-right: 3px solid #000000;
+}
+
+.fa {
+  font-size: 24em;
+}
+
+.fa-linkedin {
+  padding: 24px;
+}
+
+.fa-github {
+  padding: 24px;
+}
+
+.fa-address-card-o {
+  padding: 24px;
+  border-left: 3px solid black;
+  border-right: none;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.bio {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+img.bio {
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  border-radius: 50%;
+  border: 10px solid black;
+}
+
+.projects_row {
+  display: inline-block;
+  text-align: left;
+  max-width: 1300px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.project {
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 200px;
+  height: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project:hover {
+  background-color:rgba(0.2, 0, 0, 0.2);
+  opacity: 0.95;
+  box-shadow: 0px 0px 5px #000000;
+  transition: 0.4s;
+}
+
+.project_img {
+  display: block;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 4px;
+  opacity: inherit;
+}
+
+.project_title {
+  font-size: 22px;
+  display: block;
+}
+
+.project_desc {
+  font-size: 16px;
+  display: block;
+  color: #494949;
+}
+
+.para {
+  width: 600px;
+  font-size: 24px;
+}
+
+.contact {
+  display: inline-block;
+  padding: 20px;
+}
+
+.info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #000816;
+  border: 2px solid black;
+  display: inline-block;
+  width: 636px;
+}
+
+.info_p {
+  text-align: center;
+  display: inline;
+  color: #D3D3D3;
+}
+
+.info_pl {
+  float: right;
+  margin-right: 10px;
+}
+
+.info_pr {
+  float: left;
+  margin-left: 10px;
+}
+
+p {
+  font-family: "Copperplate"; //Edit this to something fancier.
+  font-variant: small-caps;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 770px) {
+  #button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #nav {
+    padding: 24px 36px;
+  }
+}
